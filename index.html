@@ -1,30 +1,6 @@
- <html>
-
-  <script src="https://microsoft.github.io/PowerBI-JavaScript/demo/bower_components/jquery/dist/jquery.js"></script>  
-  <script src="https://microsoft.github.io/PowerBI-JavaScript/demo/bower_components/powerbi-client/dist/powerbi.js""></script>
-
-  <script type="text/javascript">
-      var embedConfiguration = {
-          type: 'report',
-          accessToken: 'someToken',
-          id: '71.Tykt.org',
-          embedUrl: 'https://app.powerbi.com/view?r=eyJrIjoiYjQxMjY0OTUtZGNmMS00ZDhhLTk2ZWQtYjIwYzQ5NDk2ZGU3IiwidCI6Ijg0YTFlOGVjLWJlNWMtNDM1ZS1iMGJkLTNkZjRjNTg3NDJjZiIsImMiOjh9',
-        settings: {
-                      filterPaneEnabled: false,
-                      navContentPaneEnabled: false
-                      // Find the setting you want to hide and set it to False
-                    } 
-      }; 
-
-      var report;
-
-      window.onload = function () {  
-      var $reportContainer = $('#reportContainer'); 
-       report= powerbi.embed($reportContainer.get(0), embedConfiguration);
-
-      }  
-
-   </script>
-
-   <div id="reportContainer"></div>
- </html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1><iframe title="Report Section" width="1024" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiYjQxMjY0OTUtZGNmMS00ZDhhLTk2ZWQtYjIwYzQ5NDk2ZGU3IiwidCI6Ijg0YTFlOGVjLWJlNWMtNDM1ZS1iMGJkLTNkZjRjNTg3NDJjZiIsImMiOjh9&pageName=ReportSection25cfe857e457fc9686f5" frameborder="0" allowFullScreen="true"></iframe></h1>
+</body>
+</html>
