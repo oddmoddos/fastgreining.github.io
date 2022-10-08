@@ -47,4 +47,3 @@ function loadIframe(parent,src){var iframe=getChildByTag(parent,'iframe');var bu
                     transform: rotate(360deg);\
                 }\
             }';style.innerHTML=keyFrames;document.getElementsByTagName('head')[0].appendChild(style);iframe.setAttribute('src',src);iframe.setAttribute('frameborder','0');iframe.setAttribute('allowFullScreen','true');setButtonState(button,'loading')}}}();
-</script>
